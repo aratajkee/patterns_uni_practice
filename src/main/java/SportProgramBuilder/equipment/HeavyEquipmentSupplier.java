@@ -1,6 +1,6 @@
 package SportProgramBuilder.equipment;
 
-public class HeavyEquipmentSupplier {
+public class HeavyEquipmentSupplier extends Supplier{
     private Equipment[] equipments;
     public HeavyEquipmentSupplier(Equipment... equipments) {
         this.equipments = equipments;
